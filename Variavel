@@ -1,0 +1,16 @@
+programa { //ação que inicia o programa
+	funcao inicio(){ // inicia a execução do programa
+
+		inteiro numero
+
+
+		escreva("digite sua idade:")// adiciinar uma variavel que identifique a idade, obs o numero neste caso tem que ser um numero inteiro
+		leia (numero)// faz com que o pregrama calcule a idade
+
+		se(numero <= 18) { //define a divisão das idades, aqui por exemplo o 18 ira definir quem sera menor ou maior de idade
+			escreva("Você é menor de idade") // caso o numero seja menor que 18
+		}senao{
+			escreva("Você é maior de idade")//caso o numero nãa se encaixe com o primeiro na primeira variavel só resta que o numero seja maior que 18 sendo assim ele ira ser maior de idade
+		}
+			}		 
+}
